@@ -13,7 +13,7 @@ class CalculatorTest {
 
     @BeforeEach
     void setUp() {
-        Calculator calculator = new Calculator();
+        calculator = new Calculator();
         assertNotNull(calculator, "Calculator should be initialized");
     }
 
